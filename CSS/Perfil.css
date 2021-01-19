@@ -1,0 +1,67 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+#Busqueda{
+    position:absolute;
+    right: 450px;
+}
+
+body{
+    background-image: url(../Media/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position:center ;
+    background-attachment: fixed;
+}
+
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 10px;  
+}
+
+.Box{
+    width: 100%;
+    padding: 50px 300px;
+    display: flex;
+    margin: auto;
+    position: relative;
+    background-color: rgba(3, 36, 70, 0.5);
+}
+.Box div img{
+   position: relative;
+   margin: auto;
+   padding: 0px;
+   width: 250px;
+   height: 250px;
+   right: 300px;
+}
+.DatosUsuario{
+    margin: auto;
+    position: relative;
+    bottom: 150px;
+    left:inherit;
+}
+button{
+    margin: auto;
+    margin-right: 20px;
+    padding: 10px 40px; /*para el tamaño */
+    border: 2px solid#ffff;
+    background: transparent;
+    font-size: 14px;
+    font-weight: 600;
+    cursor: pointer;
+    color: white;
+    background-color: rgb(8, 92, 126);
+    outline: none;
+    transition: all 300ms;
+}

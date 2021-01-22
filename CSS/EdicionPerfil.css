@@ -1,0 +1,53 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+    text-decoration: none;
+    font-family: 'Roboto', sans-serif;
+
+
+}
+
+#Busqueda{
+    position:absolute;
+     right: 450px;
+}
+
+body{
+    background-image: url(../Media/background2.jpg);
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-position:center ;
+    background-attachment: fixed;
+}
+
+
+main{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+    margin-top: 100px;  
+    
+}
+.Caja{
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 128, 255, 0.5);
+    color: black;
+    transition: all 500ms;
+    width: 100%;
+    border: 1px solid black;
+    padding: 200px;
+    margin: auto;
+    justify-content: center;
+}
+.FotoPerfil img{
+    position: relative;
+    margin: auto;
+    padding: 0px;
+    width: 250px;
+    height: 250px;
+    bottom: 100px;
+ }
+ .DatosUsuario{
+
+ }
